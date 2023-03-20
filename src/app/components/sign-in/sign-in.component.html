@@ -1,0 +1,18 @@
+<div class="d-flex flex-column justify-content-center">
+  <h3 class="text-center">Sign In!</h3>
+  <input
+    class="form-control mb-3"
+    type="email"
+    placeholder="username"
+    [formControl]="email"
+  />
+  <input
+    class="form-control mb-3"
+    type="password"
+    placeholder="password"
+    [formControl]="password"
+  />
+  <button type="submit" class="btn btn-primary" (click)="signIn()">
+    Sign In
+  </button>
+</div>
